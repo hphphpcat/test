@@ -1,5 +1,5 @@
 int get_days(int year, int month, int day) {
- 我是孙庆安   // 验证日期是否合法
+    // 验证日期是否合法
     if (year < 2000 || month < 1 || month > 12 || day < 1 || day > 31) {
         return -1;
     }
